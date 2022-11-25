@@ -1,1 +1,1 @@
-console.log("Java script listo");
+const API_KEY = '';
