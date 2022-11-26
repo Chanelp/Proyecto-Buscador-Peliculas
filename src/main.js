@@ -78,7 +78,20 @@ async function getMoviesByCategory(id) {
       with_genres: id,
     },
   });
+  
+  const movies = data.results;
+  
+  //Renderizar las películas por categoría
+  createMovies(movies, genericSection);
+}
 
+//Función para filtrar películas por busqueda
+async function getMoviesBySearch(query) {
+  const { data } = await api("search/movie", {
+    params: {
+      query,
+    },
+  });
   const movies = data.results;
 
   //Renderizar las películas por categoría
