@@ -8,16 +8,19 @@
   --purple-light-2: #eeeaf2;
   --purple-medium-1: #aa83c8;
   --purple-medium-2: #8b48bf;
-  --purple-medium-3: #5c218a;
-  --purple-dark-1: #3e0f64;
-  --purple-dark-2: #2a0646;
+  --purple-medium-3: #f6a9be;
+  --purple-dark-1: #f17da0;
+  --purple-dark-2: #a5567a;
 
   --yellow: #eecc75;
   --green: #cad297;
   --aqua: #b7eac5;
   --lightBlue: #a2eee5;
   --darkBlue: #8ea2ea;
-  --red: #f09d9d;
+  --red: #af1b36;
+  --bluegreen: #178ca7;
+  --darkpurple: #2c2e54;
+  --pink: #f6a9a3;
 
   --font-family-titles: "Dosis", sans-serif;
   --font-family-text: "Red Hat Display", sans-serif;
@@ -275,7 +278,7 @@ footer {
   --idColor: var(--yellow);
 }
 #id14 {
-  --idColor: var(--red);
+  --idColor: var(--bluegreen);
 }
 #id36 {
   --idColor: var(--green);
@@ -290,13 +293,13 @@ footer {
   --idColor: var(--purple-dark-1);
 }
 #id10749 {
-  --idColor: var(--purple-medium-1);
+  --idColor: var(--darkpurple);
 }
 #id878 {
   --idColor: var(--yellow);
 }
 #id10770 {
-  --idColor: var(--red);
+  --idColor: var(--pink);
 }
 #id53 {
   --idColor: var(--green);
