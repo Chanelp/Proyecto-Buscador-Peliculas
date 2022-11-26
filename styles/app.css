@@ -1,5 +1,4 @@
 /* General */
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -22,28 +21,6 @@
 
   --font-family-titles: "Dosis", sans-serif;
   --font-family-text: "Red Hat Display", sans-serif;
-=======
-* { box-sizing: border-box; }
-
-:root {
-  --purple-light-1: #FBFAFB;
-  --purple-light-2: #EEEAF2;
-  --purple-medium-1: #AA83C8;
-  --purple-medium-2: #8B48BF;
-  --purple-medium-3: #5C218A;
-  --purple-dark-1: #3E0F64;
-  --purple-dark-2: #2A0646;
-
-  --yellow: #EECC75;
-  --green: #CAD297;
-  --aqua: #B7EAC5;
-  --lightBlue: #A2EEE5;
-  --darkBlue: #8EA2EA;
-  --red: #F09D9D;
-
-  --font-family-titles: 'Dosis', sans-serif;
-  --font-family-text: 'Red Hat Display', sans-serif;
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   --font-weight-title1: 800;
   --font-weight-title2: 700;
   --font-weight-text1: 400;
@@ -64,23 +41,15 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
 h1,
 h2,
 h3 {
-=======
-h1, h2, h3 {
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   margin: 0;
   padding: 0;
 }
 
-<<<<<<< HEAD
 h1,
 h2 {
-=======
-h1, h2 {
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   font-size: 24px;
   color: var(--purple-dark-2);
   font-family: var(--font-family-titles);
@@ -123,7 +92,6 @@ button {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* Shared */
 .header-container,
 .trendingPreview-header,
@@ -139,19 +107,6 @@ footer {
 
 .trendingPreview-header,
 .categoriesPreview-title {
-=======
-
-/* Shared */
-.header-container, .trendingPreview-header, .categoriesPreview-container {
-  padding: 0 24px;
-}
-
-.trendingPreview-container, .categoriesPreview-container, footer {
-  margin-top: 48px;
-}
-
-.trendingPreview-header, .categoriesPreview-title {
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   margin-bottom: 24px;
 }
 
@@ -163,12 +118,8 @@ footer {
   border-radius: 8px;
 }
 
-<<<<<<< HEAD
 .categoriesPreview-list,
 .categories-list {
-=======
-.categoriesPreview-list, .categories-list {
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -176,17 +127,12 @@ footer {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 /* Header */
 .header-container {
   padding-top: 40px;
 }
 
 .header-container--long {
-<<<<<<< HEAD
   background-image: url("https://pics.filmaffinity.com/Deadpool-777527803-large.jpg");
   background: linear-gradient(
       180deg,
@@ -194,10 +140,6 @@ footer {
       rgba(0, 0, 0, 0) 29.17%
     ),
     url(https://pics.filmaffinity.com/Deadpool-777527803-large.jpg);
-=======
-  background-image: url('https://pics.filmaffinity.com/Deadpool-777527803-large.jpg');
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 19.27%, rgba(0, 0, 0, 0) 29.17%), url(https://pics.filmaffinity.com/Deadpool-777527803-large.jpg);
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   background-size: cover !important;
   height: 480px;
   position: fixed;
@@ -206,17 +148,12 @@ footer {
 }
 
 .header-container--categoryView {
-<<<<<<< HEAD
   background: linear-gradient(
     180deg,
     rgba(238, 204, 117, 0.5) 0%,
     rgba(238, 204, 117, 0) 72.92%
   );
 }
-=======
-  background: linear-gradient(180deg, rgba(238, 204, 117, 0.5) 0%, rgba(238, 204, 117, 0) 72.92%);
-} 
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 
 .header-title {
   margin-bottom: 16px;
@@ -254,10 +191,6 @@ footer {
   border-bottom-right-radius: 8px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 /* Trending */
 .trendingPreview-header {
   display: flex;
@@ -294,10 +227,6 @@ footer {
   max-width: 150px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 /* Categories */
 .category-container {
   width: 45%;
@@ -312,11 +241,7 @@ footer {
 }
 
 .category-title::before {
-<<<<<<< HEAD
   content: "••••";
-=======
-  content: '••••';
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   color: transparent;
   /* TODO: cambiar color por ID de la categoría */
   background-color: var(--idColor);
@@ -325,7 +250,6 @@ footer {
   width: 8px;
   height: 8px;
 }
-<<<<<<< HEAD
 #id28 {
   --idColor: var(--yellow);
 }
@@ -383,28 +307,6 @@ footer {
 #id37 {
   --idColor: var(--darkBlue);
 }
-=======
-#id28 { --idColor: var(--yellow); }
-#id12 { --idColor: var(--red); }
-#id16 { --idColor: var(--green); }
-#id35 { --idColor: var(--lightBlue); }
-#id80 { --idColor: var(--darkBlue); }
-#id99 { --idColor: var(--purple-dark-1); }
-#id18 { --idColor: var(--purple-medium-1); }
-#id10751 { --idColor: var(--yellow); }
-#id14 { --idColor: var(--red); }
-#id36 { --idColor: var(--green); }
-#id27 { --idColor: var(--lightBlue); }
-#id10402 { --idColor: var(--darkBlue); }
-#id9648 { --idColor: var(--purple-dark-1); }
-#id10749 { --idColor: var(--purple-medium-1); }
-#id878 { --idColor: var(--yellow); }
-#id10770 { --idColor: var(--red); }
-#id53 { --idColor: var(--green); }
-#id10752 { --idColor: var(--lightBlue); }
-#id37 { --idColor: var(--darkBlue); }
-
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 
 /* Generic List (search, trending & category) */
 .genericList-container {
@@ -424,10 +326,6 @@ footer {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 /* Movie Detail */
 .movieDetail-container {
   border-top-left-radius: 16px;
@@ -453,11 +351,7 @@ footer {
   font-weight: var(--font-weight-title2);
 }
 .movieDetail-score::before {
-<<<<<<< HEAD
   content: "★";
-=======
-  content: '★';
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
   color: var(--yellow);
   padding-right: 4px;
 }
@@ -497,10 +391,6 @@ footer {
   min-height: 187.5px;
   max-height: 187.5px;
 }
-<<<<<<< HEAD
-=======
-  
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 
 /* Footer */
 footer {
@@ -513,18 +403,11 @@ footer {
   align-items: center;
 }
 
-<<<<<<< HEAD
 footer a {
   color: var(--purple-light-1);
 }
-=======
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
 
 /* Navigation */
 .inactive {
   display: none;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c9e4702767312577378fb7714a206fe5fba23d8a
