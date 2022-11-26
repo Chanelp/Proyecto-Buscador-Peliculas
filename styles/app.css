@@ -414,3 +414,24 @@ footer a {
 .inactive {
   display: none;
 }
+
+
+/*1064*/
+@media (min-width: 1060px) {
+  .trendingPreview-movieList .movie-container .movie-img {
+  height: 225px;
+  min-height: 225px;
+  max-height: 225px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+}
+.genericList-container .movie-container {
+  display: inline-block;
+  width: 25%;
+}
+
+.genericList-container .movie-img {
+  width: 50%;
+}
+}
