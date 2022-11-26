@@ -22,7 +22,7 @@
       <h1 class="header-title header-title--categoryView inactive">Acción</h1>
       <form id="searchForm" class="header-searchForm">
         <input type="text" placeholder="Ingresa el nombre de una peli" />
-        <button>🔍</button>
+        <button id="searchBtn">🔍</button>
       </form>
     </header>
 
@@ -54,7 +54,7 @@
     </section>
 
     <!--Lista genérica de películas con scroll vertical-->
-    <section id="genericList" class="genericList-container inactive">
+    <section id="genericList" class="genericList-container">
       <div class="movie-container">
         <img
           src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
@@ -131,6 +131,7 @@
     <!--SCRIPTS-->
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="./src/secrets.js"></script>
+    <script src="./src/nodos.js"></script>
     <script src="./src/main.js"></script>
     <script src="./src/navigation.js"></script>
   </body>
