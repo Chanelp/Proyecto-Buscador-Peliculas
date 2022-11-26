@@ -53,7 +53,7 @@ function createCategories(categories, container) {
 }
 
 /*LLAMADOS A LA API*/
-//Función para renderizar la lista de películas en tendencia
+//Función para renderizar el preview de películas en tendencia
 async function getTrendingsMoviesPreview() {
   const { data } = await api("trending/movie/day");
   const movies = data.results;
@@ -67,7 +67,6 @@ async function getCategoriesPreview() {
   const { data } = await api("genre/movie/list");
   const categories = data.genres;
 
-  //Renderizar las categorías en tendencia - categoriesPreviewList
   createCategories(categories, categoriesPreviewList);
 }
 
@@ -80,8 +79,6 @@ async function getMoviesByCategory(id) {
   });
   
   const movies = data.results;
-  
-  //Renderizar las películas por categoría
   createMovies(movies, genericSection);
 }
 
@@ -94,9 +91,16 @@ async function getMoviesBySearch(query) {
   });
   const movies = data.results;
 
-  //Renderizar las películas por categoría
   createMovies(movies, genericSection);
 }
+
+//Función para renderizar la lista de películas en tendencia
+async function getTrendingsMovies() {
+  const { data } = await api("trending/movie/day");
+  const movies = data.results;
+  createMovies(movies, genericSection);
+}
+
 
 //getTrendingsMoviesPreview();
 //getCategoriesPreview();
