@@ -42,7 +42,6 @@ function homePage() {
 
   getTrendingsMoviesPreview();
   getCategoriesPreview();
-  console.log("HOME!!!");
 }
 
 function categoriesPage() {
@@ -84,11 +83,13 @@ function movieDetailsPage() {
   categoriesPreviewSection.classList.add("inactive");
   genericSection.classList.add("inactive");
   movieDetailSection.classList.remove("inactive");
+
+  // ['#movie', '123']
+  movieId = location.hash.split("=")[1];
+  getMovieById(movieId);
 }
 
 function searchPage() {
-  console.log("SEARCH!!!");
-
   headerSection.classList.remove("header-container--long");
   headerSection.style.background = "";
   arrowBtn.classList.remove("inactive");
@@ -108,8 +109,6 @@ function searchPage() {
 }
 
 function trendsPage() {
-  console.log("TRENDS!!!");
-
   headerSection.classList.remove("header-container--long");
   headerSection.style.background = "";
   arrowBtn.classList.remove("inactive");
